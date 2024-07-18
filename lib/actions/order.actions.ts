@@ -9,6 +9,7 @@ import {
 import { redirect } from "next/navigation";
 import Stripe from "stripe";
 import { handleError } from "../utils";
+import { ObjectId } from "mongodb";
 import { connectToDatabase } from "../database";
 import Order from "../database/models/order.model";
 import Event from "../database/models/event.model";
@@ -66,8 +67,64 @@ export const createOrder = async (order: CreateOrderParams) => {
 export async function getOrdersByEvent({
   searchString,
   eventId,
-}: GetOrdersByEventParams) {}
+}: GetOrdersByEventParams) {
+  try {
+    await connectToDatabase();
 
+    if (!eventId) throw new Error("Event ID is required");
+    const eventObjectId = new ObjectId(eventId);
+
+    const orders = await Order.aggregate([
+      {
+        $lookup: {
+          from: "users",
+          localField: "buyer",
+          foreignField: "_id",
+          as: "buyer",
+        },
+      },
+      {
+        $unwind: "$buyer",
+      },
+      {
+        $lookup: {
+          from: "events",
+          localField: "event",
+          foreignField: "_id",
+          as: "event",
+        },
+      },
+      {
+        $unwind: "$event",
+      },
+      {
+        $project: {
+          _id: 1,
+          totalAmount: 1,
+          createdAt: 1,
+          eventTitle: "$event.title",
+          eventId: "$event._id",
+          buyer: {
+            $concat: ["$buyer.firstName", " ", "$buyer.lastName"],
+          },
+        },
+      },
+      {
+        $match: {
+          $and: [
+            { eventId: eventObjectId },
+            { buyer: { $regex: RegExp(searchString, "i") } },
+          ],
+        },
+      },
+    ]);
+
+    return JSON.parse(JSON.stringify(orders));
+  } catch (error) {
+    // console.log(error);
+    // handleError(error);
+  }
+}
 // GET ORDERS BY USER
 export async function getOrdersByUser({
   userId,
