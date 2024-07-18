@@ -1,7 +1,7 @@
 import Collection from "@/components/shared/Collection";
 import { Button } from "@/components/ui/button";
 import { getAllEvents } from "@/lib/actions/event.actions";
-import { SignInButton } from "@clerk/nextjs";
+
 import Image from "next/image";
 import Link from "next/link";
 
