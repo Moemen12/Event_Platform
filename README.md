@@ -34,13 +34,11 @@
 
   <br/> <br/> <br/>
 <p float="left">
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-2024-05-18-03_17_33.png" />
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-trips-2024-05-18-03_34_09.png" />  
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-trips-add-2024-05-18-03_25_23.png" />
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-trip-9c116a1b-9807-49d5-be79-63ba4cf32b1c-amazon-forest-2024-05-18-03_19_26.png" /> 
- <img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-trip-9c116a1b-9807-49d5-be79-63ba4cf32b1c-amazon-forest-2024-05-18-03_20_06.png" />
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-user-profile-9c116440-1f91-41c6-b07c-a75f6c8c0e0b-Moemensaadeh-2024-05-18-03_21_40.png" />
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-auth-profile-2024-05-18-03_23_52.png" />
+<img width="45%" src="https://github.com/Moemen12/Event_Platform/blob/main/project's%20images/image_1.png" />
+<img width="45%" src="https://github.com/Moemen12/Event_Platform/blob/main/project's%20images/image_2.png" />
+<img width="45%" src="https://github.com/Moemen12/Event_Platform/blob/main/project's%20images/image_3.png" />
+<img width="45%" src="https://github.com/Moemen12/Event_Platform/blob/main/project's%20images/image_4.png" />
+
 <img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-auth-Settings-2024-05-18-03_24_53.png" />
 <img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-trips-saved-2024-05-18-03_25_34.png" />
 </p>
