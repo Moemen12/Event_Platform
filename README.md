@@ -19,18 +19,17 @@
 <h2> <img align="left" width="35" height="35" src="https://github.com/Moemen12/Place_discovery_app/assets/99843903/11f72cdb-87ed-4d4b-89b6-1f94eb1f86ba" /> 
   Features</h2>
   
-1. User Authentication: Includes signup and login functionalities using Clerk.
-2. Event Exploration: Browse through a variety of events.
-3. Search Functionality: A search bar is available for finding all existing events.
-4. Filtering Options: Filter events by category using a select dropdown.
-5. Pagination: Events are displayed with pagination for better user experience.
-6. Single Event Page: Detailed event information including price, category, event date, description of the event, and information about the event organizer.
-7. Ticket Purchasing: Purchase tickets directly from the event page, including options for free tickets.
-8. Related Events: A section displaying events related to the currently viewed event.
-9. Create Event: Users can add new events through a dedicated create event page.
-10. User Profiles: Each user has a personal profile to view purchased tickets and manage their personal information.
-11. Profile Updates: Users can update their personal information and view the events they have created.
-.
+1.**UserAuthentication**:Includes signup and login functionalities using Clerk.
+2.**Event Exploration**: Browse through a variety of events.
+3.**Search Functionality**: A search bar is available for finding all existing events.
+4.**Filtering Options**: Filter events by category using a select dropdown.
+5.**Pagination**: Events are displayed with pagination for better user experience.
+6.**Single Event Page**: Detailed event information including price, category, event date, description of the event, and information about the event organizer.
+7.**Ticket Purchasing**: Purchase tickets directly from the event page, including options for free tickets.
+8.**Related Events**: A section displaying events related to the currently viewed event.
+9.**Create Event**: Users can add new events through a dedicated create event page.
+10.**User Profiles**: Each user has a personal profile to view purchased tickets and manage their personal information.
+11.**Profile Updates**: Users can update their personal information and view the events they have created.
 
   <br/> <br/> <br/>
 <p float="left">
