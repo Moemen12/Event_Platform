@@ -39,7 +39,6 @@
 <img width="45%" src="https://github.com/Moemen12/Event_Platform/blob/main/project's%20images/image_3.png" />
 <img width="45%" src="https://github.com/Moemen12/Event_Platform/blob/main/project's%20images/image_4.png" />
 <img width="45%" src="https://github.com/Moemen12/Event_Platform/blob/main/project's%20images/image_5.png" />
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-auth-Settings-2024-05-18-03_24_53.png" />
-<img width="45%" src="https://github.com/Moemen12/Place_discovery_app/blob/main/project's%20images/screencapture-frontend-wanderwise-wanderwise-space-trips-saved-2024-05-18-03_25_34.png" />
+
 </p>
 
